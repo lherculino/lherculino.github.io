@@ -32,7 +32,7 @@ h1 {
 .photo {
     width: 40%;
     float: left; 
-    background-image: url("content/photo.jpg");   
+    background-image: url("photo.jpg");   
     background-size: cover;
     min-height: 26em;
 }
