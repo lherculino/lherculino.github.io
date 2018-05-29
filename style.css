@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+    font-family: Tajawal,Helvetica,Arial,sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 130px;
+    margin-left: 1%
+    background-color: grey;
+    
+}
+
+.container {
+    color: white;
+    min-width: 1024px;
+    width: 100%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.photo {
+    width: 40%;
+    float: left; 
+    background-image: url("content/photo.jpg");   
+    background-size: cover;
+    min-height: 26em;
+}
+
+.info {
+    width: 60%;
+    float: left;
+}
+
+.name {
+    min-height: 8.66em;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.headline {
+    
+    font-family: Tajawal,Helvetica,Arial,sans-serif;
+    line-height: 130px;
+    min-height: 8.66em;
+    background-color: black;
+
+}
+
+.tile {
+    font-family: Tajawal,Helvetica,Arial,sans-serif;
+    width: 20%;
+    float: left;
+    min-height: 8.66em;
+    line-height: 130px;
+    text-align: center;
+}
+
+.container2 {
+    min-width: 1024px;
+    width: 100%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.geral{
+    
+    width: 76%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: #fff;
+}
+
+.info2{
+    
+    width: 24%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: #bfbfbf;
+}
