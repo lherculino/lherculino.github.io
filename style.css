@@ -1,21 +1,15 @@
 html {
     box-sizing: border-box;
     font-family: Tajawal,Helvetica,Arial,sans-serif;
+    background-color: grey;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-h1 {
+h2 {
     text-align: left;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 130px;
-    margin-left: 1%
-    background-color: grey;
+    
     
 }
 
@@ -44,7 +38,7 @@ h1 {
 
 .name {
     min-height: 8.66em;
-    background-color: rgba(0, 0, 0, 0.2);
+    
 }
 
 .headline {
@@ -92,4 +86,42 @@ h1 {
     margin-left: auto;
     border-width: 1px;
     background-color: #bfbfbf;
+}
+
+.about{
+    
+    width: 25%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: grey;
+}
+
+.download{
+    
+    width: 25%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: grey;
+}
+.newsletter{
+    
+    width: 25%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: grey;
+}
+.folowme{
+    
+    width: 25%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: grey;
 }
