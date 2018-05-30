@@ -186,8 +186,22 @@
             <div class="feedback" id="idteste5" style="display: none;">
 
                 <h1>Feedback</h1>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id metus purus. Ut vulputate, est vel tincidunt mattis, orci neque iaculis lectus, et interdum quam felis vel tortor. Fusce ultrices dui quis nunc dignissim faucibus. Ut ac odio quis nibh viverra fringilla ac id nisi. Suspendisse tincidunt augue quis ligula cursus, non efficitur ligula faucibus. Mauris id neque maximus, tincidunt metus et, sodales nulla.</p>
+              
+                <div align="center">
+                    <form name="feedback" id="feedback" method="post" align="left">
+                    <div> 
+                        <input type="text" name="name" id="name"value="" placeholder="Nome" required><br><br>
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" value="" placeholder="Email" required ><br><br>
+                    </div>
+                    <div>
+                        <textarea value="Mensagem" id="message" name="message" rows="7" cols="50" required value="" placeholder="Digite uma mensagem..."></textarea><br><br>
+                    </div>
+                    <input type="submit" value="Enviar">
+                    </form>
+                </div>
+              
 
             </div>
 
