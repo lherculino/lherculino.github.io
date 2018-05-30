@@ -189,7 +189,8 @@ h2 {
     margin-left: auto;
     border-width: 1px;
     background-color: #e74c3c;
-    height: 20em;
+    height: 30em;
     color: white;
+    line-height: 30px;
 
 }
