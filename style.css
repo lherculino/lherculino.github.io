@@ -1,7 +1,12 @@
 html {
     box-sizing: border-box;
-    font-family: Tajawal,Helvetica,Arial,sans-serif;
-    background-color: grey;
+    font-family: Sunflower,Helvetica,Arial,sans-serif;
+    background-image: url("background.jpg");
+}
+
+.principal{
+    height: 90%;
+    width:90%;
 }
 
 h2 {
@@ -9,6 +14,7 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 130px;
+    height:5.8em;
     
     
 }
@@ -43,7 +49,7 @@ h2 {
 
 .headline {
     
-    font-family: Tajawal,Helvetica,Arial,sans-serif;
+    font-family: Sunflower,Helvetica,Arial,sans-serif;
     line-height: 130px;
     min-height: 8.66em;
     background-color: black;
@@ -51,7 +57,7 @@ h2 {
 }
 
 .tile {
-    font-family: Tajawal,Helvetica,Arial,sans-serif;
+    font-family: Sunflower,Helvetica,Arial,sans-serif;
     width: 20%;
     float: left;
     min-height: 8.66em;
@@ -65,6 +71,7 @@ h2 {
     float: left;
     margin-right: auto;
     margin-left: auto;
+    height: 20em;
 
 }
 
@@ -75,7 +82,9 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     border-width: 1px;
-    background-color: #fff;
+    background-color: #1abc9c;
+    height: 20em;
+    color: white;
 }
 
 .info2{
@@ -86,6 +95,7 @@ h2 {
     margin-left: auto;
     border-width: 1px;
     background-color: #bfbfbf;
+    height: 20em;
 }
 
 .about{
@@ -96,6 +106,7 @@ h2 {
     margin-left: auto;
     border-width: 1px;
     background-color: grey;
+    height: 12em;
 }
 
 .download{
@@ -106,6 +117,7 @@ h2 {
     margin-left: auto;
     border-width: 1px;
     background-color: grey;
+    height: 12em;
 }
 .newsletter{
     
@@ -115,6 +127,7 @@ h2 {
     margin-left: auto;
     border-width: 1px;
     background-color: grey;
+    height: 12em;
 }
 .folowme{
     
@@ -124,4 +137,59 @@ h2 {
     margin-left: auto;
     border-width: 1px;
     background-color: grey;
+    height: 12em;
+}
+
+.resume{
+    width: 100%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: #3498db;
+    
+    line-height: 30px;
+    color: white;
+
+}
+
+.experiencia{
+    color: white;
+    width: 100%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: #9b59b6;
+    line-height: 30px;
+    
+}
+
+.experiencia1{
+    background-color: white;
+    color: black;   
+}
+
+.contats{
+    width: 100%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: #e67e22;
+    height: 20em;
+    line-height: 30px;
+    color: white;
+}
+
+.feedback{
+    width: 100%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    background-color: #e74c3c;
+    height: 20em;
+    color: white;
+
 }
