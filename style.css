@@ -29,6 +29,10 @@ h2 {
 
 }
 
+.contac-list {
+    list-style-type: none;
+    line-height: 50px;   
+}
 .photo {
     width: 30%;
     float: left; 
@@ -43,6 +47,7 @@ h2 {
 }
 
 .name {
+    padding: 0px;
     min-height: 8.66em;
     
 }
